@@ -5,9 +5,9 @@ import { ContactComponent } from "../pure/contact";
 import { ContactForm } from "../pure/forms/contactForm";
 
 export const ContactListComponent = () => {
-    const contact1 = new Contact('Bibi', 'Lara', '+57123123121', 'bibi@mail.com', false, TYPES.HOME);
+    const contact1 = new Contact('Bibi', 'Lara', '+57123123121', 'bibi@mail.com', true, TYPES.HOME);
     const contact2 = new Contact('Henry', 'Rios', '+5712334343', 'henry@mail.com', false, TYPES.PUBLIC_EMPLOYEE);
-    const contact3 = new Contact('David', 'Rios', '+5712334343', 'david@mail.com', false, TYPES.STUDENT);
+    const contact3 = new Contact('David', 'Rios', '+5712334343', 'david@mail.com', true, TYPES.STUDENT);
     const contact4 = new Contact('Miguel', 'Rios', '+5712334343', 'miguel@mail.com', false, TYPES.STUDENT);
     const contact5 = new Contact('Wilson', 'Rios', '+5712334343', 'wilson@mail.com', false, TYPES.UNEMPLOYED);
     const [contacts, setContacts] = useState([contact1, contact2, contact3, contact4, contact5]);
@@ -44,7 +44,7 @@ export const ContactListComponent = () => {
             </div>
             {/* Card Body (content) */}
             <div className='card-body' data-mdb-perfect-scrollbar='true' style={ {position: 'relative', height:'400px'} }>
-              <table>
+              <table class="table table-striped">
                 <thead>
                   <tr>
                     <th scope='col'>Name</th>
