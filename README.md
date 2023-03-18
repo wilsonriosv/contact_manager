@@ -1,15 +1,14 @@
-# Getting Started with Create React App
+# Ejemplo del uso de COMPONENTES en ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto permite, de una forma básica, analizar el uso inicial de componentes, clases, styles, bootstrap, sass, hooks y la inserción de código HTML desde ReactJS.
 
-## Available Scripts
+## Al iniciar
 
-In the project directory, you can run:
+Cuando descargue este proyecto para su análisis, no olvide correr el comando:
 
-### `npm start`
+### `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para que se descarguen de forma local los módulos necesarios para correr la aplicación.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
